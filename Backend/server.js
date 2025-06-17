@@ -1,8 +1,8 @@
-const express = requires("express")
+const express = require("express")
 const app = express()
 
 app.get("/", (req, res) => {
-    res.send("Hello World from our cool app")
+    res.send("Hello World from our cool app with starting with Backend!")
 
 })
 
